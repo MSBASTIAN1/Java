@@ -19,6 +19,13 @@ public class Calculadora {
 	public double dividir(double dividendo, double divisor) {
 		double resultado;//Declaro la variable
 		resultado = dividendo / divisor;
-		return resultado;
+		return resultado;			
+	}
+	public double promediar(double valor1, double valor2, double valor3) {
+		double resultado1;//Declaro la variable
+		resultado1 = valor1 + valor2 + valor3;
+		double resultado2;//Declaro la variable
+		resultado2 = resultado1 / 3;
+		return resultado2;
 	}
 }
