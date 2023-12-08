@@ -20,12 +20,13 @@ public class TestCalculadora {
 		
 		double resultadoPromediar;
 		resultadoPromediar = calcu.promediar(10, 8, 9);
-				
+		
 		System.out.println("Resultado de la suma : "+resultadoSuma);
 		System.out.println("Resultado de la resta: "+ resultadoResta);
 		System.out.println("El producto de la multiplicación: "+ resultadoMultiplicacion);
 		System.out.println("El cociente de la división: "+ resultadoDivision);
 		System.out.println("El total del promedio: "+ resultadoPromediar);
+		calcu.mostrarResultado();
 	}
 
 }

@@ -28,4 +28,7 @@ public class Calculadora {
 		resultado2 = resultado1 / 3;
 		return resultado2;
 	}
+	public void mostrarResultado(){
+		System.out.println("Ahorita no joven, Sali al almuerzo. Regreso en 15 minutos");
+	}
 }
