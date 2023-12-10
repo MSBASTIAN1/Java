@@ -30,6 +30,12 @@ public class TestPersona {
 		System.out.println("Edad:"+p2.getEdad());
 		System.out.println("Estatura:"+p2.getEstatura());
 		
+		System.out.println("----------------");
+		Persona p4 = new Persona("Rocio",15,1.40);
+		System.out.println("Nombre:"+p4.getNombre());
+		System.out.println("Edad:"+p4.getEdad());
+		System.out.println("Estatura:"+p4.getEstatura());
+		
 	}
 
 }
