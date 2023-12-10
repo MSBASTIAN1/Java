@@ -8,27 +8,27 @@ public class TestPersona {
 		Persona p;//1. Declaro una variable llamada p de tipo Persona
 		p = new Persona();//2. Instanciar un objeto Persona, referenciarlo con p
 		//3. Accedo a los atributos
-		System.out.println("Nombre:"+ p.nombre);
-		System.out.println("Edad:"+ p.edad);
-		System.out.println("Estatura:"+ p.estatura);
+		System.out.println("Nombre:"+ p.getNombre());
+		System.out.println("Edad:"+ p.getEdad());
+		System.out.println("Estatura:"+ p.getEstatura());
 		//P1
 		System.out.println("----------------");
 		Persona p1 = new Persona();
-		p1.nombre = "Juan";
-		p1.edad = 13;
-		p1.estatura = 1.69;
-		System.out.println("Nombre:"+p1.nombre);
-		System.out.println("Edad:"+p1.edad);
-		System.out.println("Estatura:"+p1.estatura);
+		p1.setNombre("Juan");
+		p1.setEdad(13);
+		p1.setEstatura(1.68);
+		System.out.println("Nombre:"+p1.getNombre());
+		System.out.println("Edad:"+p1.getEdad());
+		System.out.println("Estatura:"+p1.getEstatura());
 		//P2
 		System.out.println("----------------");
 		Persona p2 = new Persona();
-		p2.nombre = "Pepe";
-		p2.edad = 20;
-		p.estatura = 1.80;
-		System.out.println("Nombre:"+p2.nombre);
-		System.out.println("Edad:"+p2.edad);
-		System.out.println("Estatura:"+p2.estatura);
+		p2.setNombre("Pepe");
+		p2.setEdad(20);
+		p2.setEstatura(1.80);
+		System.out.println("Nombre:"+p2.getNombre());
+		System.out.println("Edad:"+p2.getEdad());
+		System.out.println("Estatura:"+p2.getEstatura());
 		
 	}
 
